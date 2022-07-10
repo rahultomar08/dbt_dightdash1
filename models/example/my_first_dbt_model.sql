@@ -9,16 +9,15 @@
 
 {{ config(materialized='table') }}
 
-with source_data as (
+with Cust_id as (
 
-    select 1 as id
-    union all
-    select null as id
+    select ID as id
+    
 
 )
 
 select *
-from source_data
+from Cust_id
 
 /*
     Uncomment the line below to remove records with null `id` values
