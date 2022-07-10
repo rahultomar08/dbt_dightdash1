@@ -22,5 +22,8 @@ models:
             description: ""
             tests:
                 - unique
+          - name: PARTNER_NAME
+            description: ""
+            
 
 
