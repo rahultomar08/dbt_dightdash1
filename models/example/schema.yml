@@ -14,5 +14,13 @@ models:
             description: ""
             tests:
                 - unique
+          - name: CONTACT_NO
+            description: ""
+            tests:
+                - unique
+          - name: EMAIL_ADDRESS
+            description: ""
+            tests:
+                - unique
 
 
