@@ -10,6 +10,11 @@ models:
             tests:
                 - unique
                 - not_null
+          - name: EMPNO
+            description: ""
+            tests:
+                - unique
+
 
     - name: my_second_dbt_model
       description: "A starter dbt model"
