@@ -46,7 +46,7 @@ models:
           - name: COMPETITOR_NAME
           - name: BRANCH_CODE
           - name: LG_DETAILS
-          - name: Year
+
 
             
 
