@@ -6,16 +6,48 @@ models:
       description: "A starter dbt model"
       columns:
           - name: id
-            description: "The primary key for this table"
+            description: ""
             tests:
                 - unique
                 - not_null
+          - name: EMPNO
+            description: ""
+            tests:
+                - unique
+          - name: CONTACT_NO
+            description: ""
+            tests:
+                - unique
+          - name: EMAIL_ADDRESS
+            description: ""
+            tests:
+                - unique
+          - name: PARTNER_NAME
+            description: ""
+          - name: CHANNEL
+          - name: PRODUCT
+          - name: PROPOSED_PREMIUM
+          - name: EXISITING_CUSTOMER
+          - name: CUSTOMER_ID
+          - name: NATURE_OF_LEAD
+          - name: EXPIRING_POLICY_NO
+          - name: MODE_OF_CONTACT
+          - name: STATUS
+          - name: GC_POLICY_NO_1
+          - name: GC_POLICY_NO_2
+          - name: REMARKS_OR_REASON
+          - name: MEETING_DATE
+          - name: CREATEDON
+          - name: CREATEDBY
+          - name: UPDATEDON
+          - name: UPDATEDBY
+          - name: ET_ID
+          - name: FOLLOW_UP_DATE
+          - name: COMPETITOR_NAME
+          - name: BRANCH_CODE
+          - name: LG_DETAILS
 
-    - name: my_second_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+
+            
+
+
