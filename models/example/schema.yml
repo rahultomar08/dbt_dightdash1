@@ -45,7 +45,7 @@ models:
           - name: FOLLOW_UP_DATE
           - name: COMPETITOR_NAME
           - name: BRANCH_CODE
-          - name: LG_DETAILS
+
 
 
             
