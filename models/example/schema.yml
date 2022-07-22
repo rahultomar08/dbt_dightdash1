@@ -6,12 +6,12 @@ models:
       description: "A starter dbt model"
       columns:
           - name: id
-            description: ""
+            description: "A Primary Key"
             tests:
                 - unique
                 - not_null
           - name: EMPNO
-            description: ""
+            description: "E"
             tests:
                 - unique
           - name: CONTACT_NO
@@ -24,7 +24,7 @@ models:
                 - unique
           - name: PARTNER_NAME
             description: ""
-          - name: CHANNEL
+        #  - name: CHANNEL
           - name: PRODUCT
           - name: PROPOSED_PREMIUM
           - name: EXISITING_CUSTOMER
